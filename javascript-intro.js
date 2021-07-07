@@ -1,6 +1,6 @@
 // JavaScript Introduction 7/7/2021
 
-// commenting out code - command+/
+// Commenting out code - command + /
 
 // JavaScript is a dyanmic, intepreted, scripting language
 // Dynamic - can change the data type being held by a variable
@@ -8,16 +8,17 @@
 // Scripting - perform logic and manipulate data
 
 
-// Running a JavaScript file
-// - file name: no spaces, extension .js, starts with a lowercase letter
-// - command to process the information in this file >> $ node filename.js
-  // - NOTE - the $ is indicates a terminal command, don't use the $
-// need stuff to run!
+// Running a JavaScript file:
+// - File name: no spaces, extension .js, starts with a lowercase letter
+// - Command to process the information in this file >> $ node filename.js
+  // - NOTE - the $ is indicates a terminal command, don't use the $ in the command
+// Need stuff to run!
+  // - console.log() and data types
 
 
 // Data Types - categories of information that our language understands
 
-// Primitive data - 6, information that cannot be broken down any further
+Primitive data - information that cannot be broken down any further
 // 1) number
 // 2) string
 // 3) Boolean
@@ -25,71 +26,69 @@
 // 5) undefined
 // 6) symbol
 
-// NUMBERS
+// NUMBERS - can perform mathematical calculations
 
 // - Integers - whole numbers
 42
-// console.log(42)
+console.log(42)
 // - Floats - partial numbers, decimals, or fractions
-// console.log(3.14)
+console.log(3.14)
 
 // - addition +
 // - subtraction -
 // - multiplication *
 // - division /
 // - exponents **
-// console.log(3**3)
+console.log(3**3) // --> 27
 // - modulo % - return the remainder of a division problem
-// console.log(4 % 3)
+console.log(4 % 3) // --> 1
 
 
 // STRING - characters stroed inside quotation marks
 // Properties - length, each character has a given location
-// indexing - where does a particular character live? ****** (big takeaway)
+// *****Indexing - where does a particular character live?****** (big takeaway concept)
 
 "hello"
-// console.log("hello")
-// console.log("hello".length)
-// logged --> 5
-// console.log("hello")
+console.log("hello") // --> "hello"
+console.log("hello".length) // --> 5
 // index 0 - "h"
 // index 1 - "e"
 // index 2 - "l"
 // index 3 - "l"
 // index 4 - "o"
-// console.log("hello"[0])
-// console.log("hello"[4])
-// console.log("hello"[5])
+console.log("hello"[0]) // --> "h"
+console.log("hello"[4]) // --> "o"
+console.log("hello"[5]) // --> undefined
 
 // BOOLEAN - true/false
-// console.log(true)
-// console.log(6 < 3)
+console.log(true)
+console.log(6 < 3)
 
 // Relational operators - < > <= >=
 
 // Equality operators
   // Strict equality
-  // console.log(8 === 4+4)
-  // console.log(8 === "8")
+  console.log(8 === 4+4)
+  console.log(8 === "8")
   // Loose equality
-  // type coersion - bad practice
-  // console.log(8 == "8")
+  // Type coersion - bad practice
+  console.log(8 == "8")
   // "8" === "8" (behind the scenes)
-  // console.log(6 == "purple") // --> false
-  // console.log(true == "true") --> false
+  console.log(6 == "purple") // --> false
+  console.log(true == "true") // --> false
 
 // Logical operators
 // Logial AND - &&, everything must be true for the statement to be true
 
-// console.log(6 < 3 && 8 === 4+4)
-// console.log(6 > 3 && 8 === 4+4)
+console.log(6 < 3 && 8 === 4+4) // --> false
+console.log(6 > 3 && 8 === 4+4) // --> true
 
 // Logical OR - ||, at least one thing must be true for the statement to be true
-// console.log(6 < 3 || 8 === 4+4)
-// console.log(6 > 3 || 8 === 4+4)
+console.log(6 < 3 || 8 === 4+4) // --> true
+console.log(6 > 3 || 8 === 4+4) // --> true
 
 // NULL - equal to nothing else
-// console.log(null)
+console.log(null)
 
 // UNDEFINED - value of a variable that has been declared but not defined
 
@@ -107,21 +106,19 @@
 
 // Assign it a value with a single equal sign, data type
 
-// var myName
-// console.log(myName)
-// --> undefined
+var myName
+console.log(myName) // --> undefined
 
-// Dynamic
+// Dynamic - can change the data type being held by a variable
 var myName = "sarah"
-// console.log(myName)
+console.log(myName) // --> "sarah"
 myName = "George"
-// console.log(myName)
+console.log(myName) // --> "George"
 myName = 11
-// console.log(myName)
+console.log(myName) // --> 11
 
 // Using const (variable declaration) to prevent a variable from being reassigned
 // const myNum = 9
-// console.log(myNum)
+// console.log(myNum) // --> 9
 // myNum = 10
-// console.log(myNum)
-// --> error
+// console.log(myNum) // --> big fat error
