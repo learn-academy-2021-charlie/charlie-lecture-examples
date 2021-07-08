@@ -122,3 +122,26 @@ console.log(myName) // --> 11
 // console.log(myNum) // --> 9
 // myNum = 10
 // console.log(myNum) // --> big fat error
+
+
+// Review
+// - Making a JavaScript file - .js
+// - $ node filename.js
+// - JavaScript casing convention - camelCase
+// - number, Boolean, string, null, undefined, symbol
+// - Variable - something that can hold information, any data type
+// - Built in method - common actions in code that get added to the language, ex) length, toUpperCase, slice, indexOf, charAt, includes, toLowerCase
+// - Logical operators && ||, Equality == ===, Relational < > <= >=, Negation !== (bang operator)
+// - let, var, const - variable that cannot be redefined
+// - Index - zero based, position of an item "hello"[2]
+
+
+// Write the code that will log whether theQuestion.length is greater than theAnswer.
+
+var theQuestion = "life, the universe, and everything"
+var theAnswer = 42
+
+console.log(theQuestion.length > theAnswer)
+// 34 > 42
+console.log(theQuestion.length < theAnswer)
+// 34 < 42

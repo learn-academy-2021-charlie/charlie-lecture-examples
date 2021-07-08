@@ -33,14 +33,14 @@ Checking the configuration for user name and password:
  - "generate token"
 
 # Prompting GitHub Authentication
- - Clone a Repo 
+ - Clone a Repo
     - (troubleshooting: Push changes to  prompt credintials)
  - Use your token like a password
  - check keychain to see if it's stored
 
 # Creating a repository
 ### CHARLIE-LECTURE-EXAMPLES
- - new repository 
+ - new repository
     - name repo
     - "initialize ReadMe"
     - "Create Repo"
@@ -73,3 +73,17 @@ Process:
   - $ git checkout main
   - $ git pull origin main
   - $ git branch -d <branch-name>
+
+
+
+
+### Review
+- Git - version control technology, creating saved versions of the app marked by commit numbers
+- GitHub - GUI for git, creates a space for devs to share code
+- Branch - creating a copy of the code to develop new features/new work
+- Create a new file - touch, no spaces, extension
+- Difference between a file and branch?
+  - Branch - GitHub/git, track changes
+  - Files - can have many files in a branch, structure of the program
+- $ git add .  $ git commit -m "important info here"   $ git push origin branch-name
+- Repo I don't have locally - $ git clone
