@@ -24,17 +24,17 @@ class App extends Component {
         <h3>Trader Joes</h3>
         <List
           cartItem={this.state.traderJoes}
-          addItem={ this.addItem}
+          addItem={this.addItem}
         />
         <h3>Ralphs</h3>
         <List
           cartItem={this.state.ralphs}
-          addItem={ this.addItem}
+          addItem={this.addItem}
         />
         <h3>Hardware</h3>
         <List
           cartItem={this.state.hardware}
-          addItem={ this.addItem}
+          addItem={this.addItem}
         />
         <h3>Cart</h3>
         <ul>
