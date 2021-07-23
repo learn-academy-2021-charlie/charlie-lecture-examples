@@ -23,11 +23,10 @@ class App extends Component {
   render() {
     return (
       <>
-      <GreetPerson 
-      person={this.state.namesArray[this.state.currentPerson]}
-      handleGreeting = {this.handleGreeting}
-      />
-      
+        <GreetPerson 
+        person={this.state.namesArray[this.state.currentPerson]}
+        handleGreeting = {this.handleGreeting}
+        />
       </>
     )
   }
