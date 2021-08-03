@@ -114,3 +114,16 @@
 #   return fib_array
 # end
 # p fibonacci 5
+
+
+# As a developer, I can use an enumerable method to return information about all of my_phone's applications.
+
+
+my_phone = { twitter: 'people with bad opinions', gmail: 'check email'}
+
+def get_info hash
+  hash.map do |key, value|
+    "#{key}: #{value}"
+  end
+end
+p get_info my_phone
