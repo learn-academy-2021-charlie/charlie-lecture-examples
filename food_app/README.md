@@ -1,24 +1,85 @@
-# README
+# Set Up Commands
+$ rails new app_name -d postgresql -T -G
+$ cd food_app 
+$ rails db:create
+### A new rails Generate command
+$ rails g controller Food
+$ rails s
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Overview 
+- request & repsonse cycle
+- Route
+    - Http verb
+    - Url
+    - controller
+    - method
+- Controllers
+    - generate command
+    - Methods invloved
+- View
+    - how to create a view
+    - how to use HTML ERB
+    - linking between pages
+ 
+### controller
+    def name_of_method
+     thing method should do
+     end
 
-Things you may want to cover:
+### config/routes.rb
+ verb '/route' => 'controller#method'
+ root_to (Please look that up)
 
-* Ruby version
+### the view
+This hangs people up 
+we need to create the view associated with each method name -- 
+(ex. 
+app/views/controller_name/method_name.html.erb)
 
-* System dependencies
 
-* Configuration
+<html></html>
+ruby <%= %> <% %>
 
-* Database creation
+# methods and instance variables
+ def method_names 
+ @variable
+ end
 
-* Database initialization
 
-* How to run the test suite
+# link_to
+  
+/views/controller/home.html.erb
+<%= link_to "Method1", "/method1" %>
+<%= link_to "Other method", "/other_method" %>
+____________________________________________
+/views/food/method1.html.erb
+<%= link_to "Home", "/" %>
+____________________________________________
 
-* Services (job queues, cache servers, search engines, etc.)
+# "each do" in HTML ERB
+app/controllers/controller_name
 
-* Deployment instructions
+def method
+    @choices = ["value", "value", "value"]
+end
+_____________________________
+app/views/method.html.erb
 
-* ...
+<ul>  
+<li>
+<% @variable.each do |value|%>
+    <li> <%= value %></li>
+<% end %>
+</ul>
+
+# Overview
+1. made an app
+2. created a db
+3. generated a controller
+4. set up our controller
+5. set up some routes
+6. bounced back and fourth a bit making methods and routes
+7. made a couple of views
+8. mapped our controller to our views
+9. we set up instance variables in our methods that our views can call on
+10. we linked our views together
