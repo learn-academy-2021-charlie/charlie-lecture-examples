@@ -409,3 +409,248 @@ DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: food/
 Completed 200 OK in 20ms (Views: 19.6ms | Allocations: 5178)
 
 
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE DATABASE "food_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE DATABASE "food_app_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2021-08-10 09:20:57 -0700
+Processing by FoodController#home as HTML
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: food/home.html.erb (called from home at /Users/sarahproctor/Desktop/learn/charlie-lecture-examples/food_app/app/controllers/food_controller.rb:10)
+  Rendering layout layouts/application.html.erb
+  Rendering food/home.html.erb within layouts/application
+  Rendered food/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 518)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 438.0ms | Allocations: 17649)
+Completed 200 OK in 736ms (Views: 653.5ms | ActiveRecord: 0.0ms | Allocations: 22019)
+
+
+Started GET "/nachos" for ::1 at 2021-08-10 09:23:05 -0700
+Processing by FoodController#nachos as HTML
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: food/nachos.html.erb (called from nachos at /Users/sarahproctor/Desktop/learn/charlie-lecture-examples/food_app/app/controllers/food_controller.rb:4)
+  Rendering layout layouts/application.html.erb
+  Rendering food/nachos.html.erb within layouts/application
+  Rendered food/nachos.html.erb within layouts/application (Duration: 4.9ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 4193)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms | Allocations: 4915)
+
+
+Started GET "/jlkejfgklfjklwf" for ::1 at 2021-08-10 09:32:14 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/jlkejfgklfjklwf"):
+  
+Started GET "/banana" for ::1 at 2021-08-10 09:33:14 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/banana"):
+  
+Started GET "/banana" for ::1 at 2021-08-10 09:33:22 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/banana"):
+  
+Started GET "/banana" for ::1 at 2021-08-10 09:33:37 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/banana"):
+  
+Started GET "/banana" for ::1 at 2021-08-10 09:33:49 -0700
+Processing by FoodController#nachos as HTML
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: food/nachos.html.erb (called from nachos at /Users/sarahproctor/Desktop/learn/charlie-lecture-examples/food_app/app/controllers/food_controller.rb:4)
+  Rendering layout layouts/application.html.erb
+  Rendering food/nachos.html.erb within layouts/application
+  Rendered food/nachos.html.erb within layouts/application (Duration: 6.8ms | Allocations: 161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.2ms | Allocations: 6093)
+Completed 200 OK in 95ms (Views: 88.5ms | ActiveRecord: 0.0ms | Allocations: 8571)
+
+
+Started GET "/nachos" for ::1 at 2021-08-10 09:35:03 -0700
+Processing by FoodController#nachos as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering food/nachos.html.erb within layouts/application
+  Rendered food/nachos.html.erb within layouts/application (Duration: 0.6ms | Allocations: 60)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 204.3ms | Allocations: 3509)
+Completed 200 OK in 207ms (Views: 205.5ms | ActiveRecord: 0.0ms | Allocations: 4119)
+
+
+Started GET "/nachos" for ::1 at 2021-08-10 09:44:03 -0700
+Processing by FoodController#nachos as HTML
+DEPRECATION WARNING: Rendering actions with '.' in the name is deprecated: food/nachos.html.erb (called from nachos at /Users/sarahproctor/Desktop/learn/charlie-lecture-examples/food_app/app/controllers/food_controller.rb:4)
+  Rendering layout layouts/application.html.erb
+  Rendering food/nachos.html.erb within layouts/application
+  Rendered food/nachos.html.erb within layouts/application (Duration: 1.5ms | Allocations: 363)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 229.0ms | Allocations: 6640)
+Completed 200 OK in 260ms (Views: 239.0ms | ActiveRecord: 0.0ms | Allocations: 9976)
+
+
+Started GET "/pasta" for ::1 at 2021-08-10 09:44:11 -0700
+Processing by ItalianController#pasta as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering italian/pasta.html.erb within layouts/application
+  Rendered italian/pasta.html.erb within layouts/application (Duration: 1.3ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 158.9ms | Allocations: 3579)
+Completed 200 OK in 182ms (Views: 178.6ms | ActiveRecord: 0.0ms | Allocations: 4610)
+
+
+Started GET "/pasta" for ::1 at 2021-08-10 09:47:27 -0700
+Processing by ItalianController#pasta as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering italian/pasta.html.erb within layouts/application
+  Rendered italian/pasta.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 206.8ms | Allocations: 3500)
+Completed 200 OK in 210ms (Views: 208.7ms | ActiveRecord: 0.0ms | Allocations: 4155)
+
+
+Started GET "/pasta?pasta_order=ravioli" for ::1 at 2021-08-10 09:49:39 -0700
+Processing by ItalianController#pasta as HTML
+  Parameters: {"pasta_order"=>"ravioli"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/pasta.html.erb within layouts/application
+  Rendered italian/pasta.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 3465)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 3921)
+
+
+Started GET "/pasta?pasta_order=spaghetti" for ::1 at 2021-08-10 09:52:02 -0700
+Processing by ItalianController#pasta as HTML
+  Parameters: {"pasta_order"=>"spaghetti"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/pasta.html.erb within layouts/application
+  Rendered italian/pasta.html.erb within layouts/application (Duration: 0.3ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3499)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 4138)
+
+
+Started GET "/pasta" for ::1 at 2021-08-10 09:53:11 -0700
+Processing by ItalianController#pasta as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering italian/pasta.html.erb within layouts/application
+  Rendered italian/pasta.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 3462)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+Started GET "/pasta" for ::1 at 2021-08-10 09:54:26 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/pasta"):
+  
+Started GET "/pasta/ravioli" for ::1 at 2021-08-10 09:55:17 -0700
+Processing by ItalianController#pasta as HTML
+  Parameters: {"pasta_order"=>"ravioli"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/pasta.html.erb within layouts/application
+  Rendered italian/pasta.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.8ms | Allocations: 3508)
+Completed 200 OK in 74ms (Views: 69.0ms | ActiveRecord: 0.0ms | Allocations: 4154)
+
+
+Started GET "/breadsticks" for ::1 at 2021-08-10 09:59:41 -0700
+Processing by ItalianController#breadsticks as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering italian/breadsticks.html.erb within layouts/application
+  Rendered italian/breadsticks.html.erb within layouts/application (Duration: 0.7ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3758)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 5000)
+
+
+Started GET "/breadsticks" for ::1 at 2021-08-10 10:01:09 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/breadsticks"):
+  
+Started GET "/breadsticks/3" for ::1 at 2021-08-10 10:01:37 -0700
+Processing by ItalianController#breadsticks as HTML
+  Parameters: {"number"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/breadsticks.html.erb within layouts/application
+  Rendered italian/breadsticks.html.erb within layouts/application (Duration: 3.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 3503)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms | Allocations: 4144)
+
+
+Started GET "/breadsticks/3" for ::1 at 2021-08-10 10:05:08 -0700
+Processing by ItalianController#breadsticks as HTML
+  Parameters: {"number"=>"3"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 579)
+
+
+  
+ArgumentError (comparison of String with 10 failed):
+  
+app/controllers/italian_controller.rb:8:in `>='
+app/controllers/italian_controller.rb:8:in `breadsticks'
+Started GET "/breadsticks/3" for ::1 at 2021-08-10 10:05:50 -0700
+Processing by ItalianController#breadsticks as HTML
+  Parameters: {"number"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/breadsticks.html.erb within layouts/application
+  Rendered italian/breadsticks.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 3503)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 4143)
+
+
+Started GET "/breadsticks/12" for ::1 at 2021-08-10 10:05:56 -0700
+Processing by ItalianController#breadsticks as HTML
+  Parameters: {"number"=>"12"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/breadsticks.html.erb within layouts/application
+  Rendered italian/breadsticks.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 3463)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+Started GET "/breadsticks/12" for ::1 at 2021-08-10 10:06:05 -0700
+Processing by ItalianController#breadsticks as HTML
+  Parameters: {"number"=>"12"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/breadsticks.html.erb within layouts/application
+  Rendered italian/breadsticks.html.erb within layouts/application (Duration: 10.7ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 205.0ms | Allocations: 3493)
+Completed 200 OK in 208ms (Views: 206.7ms | ActiveRecord: 0.0ms | Allocations: 4132)
+
+
+Started GET "/dessert" for ::1 at 2021-08-10 10:23:25 -0700
+Processing by ItalianController#dessert as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering italian/dessert.html.erb within layouts/application
+  Rendered italian/dessert.html.erb within layouts/application (Duration: 0.5ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 220.0ms | Allocations: 3779)
+Completed 200 OK in 227ms (Views: 225.0ms | Allocations: 5020)
+
+
+Started GET "/dessert" for ::1 at 2021-08-10 10:24:21 -0700
+Processing by ItalianController#dessert as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering italian/dessert.html.erb within layouts/application
+  Rendered italian/dessert.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 3492)
+Completed 200 OK in 36ms (Views: 32.8ms | Allocations: 4134)
+
+
+Started GET "/dessert" for ::1 at 2021-08-10 10:25:08 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/dessert"):
+  
+Started GET "/dessert/tiramisu/espresso" for ::1 at 2021-08-10 10:25:46 -0700
+Processing by ItalianController#dessert as HTML
+  Parameters: {"selection"=>"tiramisu", "beverage"=>"espresso"}
+  Rendering layout layouts/application.html.erb
+  Rendering italian/dessert.html.erb within layouts/application
+  Rendered italian/dessert.html.erb within layouts/application (Duration: 0.4ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 3504)
+Completed 200 OK in 61ms (Views: 57.0ms | Allocations: 4142)
+
+
+  [1m[35m (475.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "food_app_development"[0m
+  [1m[35m (124.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "food_app_test"[0m

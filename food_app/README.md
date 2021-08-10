@@ -1,12 +1,12 @@
 # Set Up Commands
 $ rails new app_name -d postgresql -T -G
-$ cd food_app 
+$ cd food_app
 $ rails db:create
 ### A new rails Generate command
 $ rails g controller Food
 $ rails s
 
-# Overview 
+# Overview
 - request & repsonse cycle
 - Route
     - Http verb
@@ -20,7 +20,7 @@ $ rails s
     - how to create a view
     - how to use HTML ERB
     - linking between pages
- 
+
 ### controller
     def name_of_method
      thing method should do
@@ -31,9 +31,9 @@ $ rails s
  root_to (Please look that up)
 
 ### the view
-This hangs people up 
-we need to create the view associated with each method name -- 
-(ex. 
+This hangs people up
+we need to create the view associated with each method name --
+(ex.
 app/views/controller_name/method_name.html.erb)
 
 
@@ -41,13 +41,13 @@ app/views/controller_name/method_name.html.erb)
 ruby <%= %> <% %>
 
 # methods and instance variables
- def method_names 
+ def method_names
  @variable
  end
 
 
 # link_to
-  
+
 /views/controller/home.html.erb
 <%= link_to "Method1", "/method1" %>
 <%= link_to "Other method", "/other_method" %>
@@ -83,3 +83,33 @@ app/views/method.html.erb
 8. mapped our controller to our views
 9. we set up instance variables in our methods that our views can call on
 10. we linked our views together
+
+
+
+# Params
+
+Params are the way to pass additional information into the controller methods
+$ rails g controller Italian
+
+
+Passing params directly in the URL:
+```ruby
+def pasta
+  @pasta_type = params[:pasta_order]
+end
+```
+get '/pasta' => 'italian#pasta'
+http://localhost:3000/pasta?pasta_order=ravioli
+Parameters: {"pasta_order"=>"ravioli"}
+
+Expecting parameters in route:
+```ruby
+def pasta
+  @pasta_type = params[:pasta_order]
+end
+get '/pasta/:pasta_order' => 'italian#pasta'
+```
+Pulling the value from the params hash
+
+Params are always a string:
+Parameters: {"number"=>"3"}
