@@ -654,3 +654,5 @@ Completed 200 OK in 61ms (Views: 57.0ms | Allocations: 4142)
 
   [1m[35m (475.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "food_app_development"[0m
   [1m[35m (124.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "food_app_test"[0m
+  [1m[35m (206.6ms)[0m  [1m[35mCREATE DATABASE "food_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (115.4ms)[0m  [1m[35mCREATE DATABASE "food_app_test" ENCODING = 'unicode'[0m
